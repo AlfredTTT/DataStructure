@@ -2,7 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.wangpos.datastructure">
 
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/datastruct"
@@ -10,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity android:name=".MainActivity">
-           <intent-filter>
+            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -26,40 +27,31 @@
         <activity android:name=".sort.QuickSortActivity" />
         <activity android:name=".sort.BubbleSortActivity" />
         <activity android:name=".sort.BinaryTreeActivity" />
-        <activity android:name=".sort.RecursionActivity"></activity>
-        <activity android:name=".sort.OptionSortActivity"></activity>
-        <activity android:name=".sort.HeapSortActivity">
-        </activity>
-        <activity android:name=".sort.MergeSortActivity">
-        </activity>
-        <activity android:name=".sort.ShellSortActivity"></activity>
-        <activity android:name=".sort.EightSortDescriptionActivity"></activity>
-        <activity android:name=".sort.CountSortActivity"></activity>
-        <activity android:name=".java.JavaWaitNotifyActivity"></activity>
-        <activity android:name=".java.JavaThreadSummary"></activity>
-        <activity android:name=".sort.MaxMinSelectActivity"></activity>
-        <activity android:name=".sort.SelectIndexDataActivity"></activity>
-        <activity android:name=".sort.MaxDataSelectDataActivity"></activity>
-        <activity android:name=".sort.HashTableActivity"></activity>
-        <activity android:name=".core.WebViewActivity"></activity>
-        <activity android:name=".java.KeepMoreRequest"></activity>
-        <activity android:name=".other.MaxSubStringActivity">
-
-        </activity>
-        <activity android:name=".graph.GraphActivity">
-        </activity>
-        <activity android:name=".graph.TopologicalOrderActivity">
-        </activity>
-        <activity android:name=".graph.DjstaActivity">
-
-        </activity>
-        <activity android:name=".java.ReferenceQueueActivity"/>
-        <activity android:name=".java.JavaThreadPrincipleActivity"/>
-
-        <activity android:name=".java.ArrayListActivity"/>
-        <activity android:name=".interview.DesignV28Activity"/>
-        <activity android:name=".other.GetMinActivity"/>
-        <activity android:name=".java.LockTestActivity"/>
+        <activity android:name=".sort.RecursionActivity" />
+        <activity android:name=".sort.OptionSortActivity" />
+        <activity android:name=".sort.HeapSortActivity"></activity>
+        <activity android:name=".sort.MergeSortActivity"></activity>
+        <activity android:name=".sort.ShellSortActivity" />
+        <activity android:name=".sort.EightSortDescriptionActivity" />
+        <activity android:name=".sort.CountSortActivity" />
+        <activity android:name=".java.JavaWaitNotifyActivity" />
+        <activity android:name=".java.JavaThreadSummary" />
+        <activity android:name=".sort.MaxMinSelectActivity" />
+        <activity android:name=".sort.SelectIndexDataActivity" />
+        <activity android:name=".sort.MaxDataSelectDataActivity" />
+        <activity android:name=".sort.HashTableActivity" />
+        <activity android:name=".core.WebViewActivity" />
+        <activity android:name=".java.KeepMoreRequest" />
+        <activity android:name=".other.MaxSubStringActivity"></activity>
+        <activity android:name=".graph.GraphActivity"></activity>
+        <activity android:name=".graph.TopologicalOrderActivity"></activity>
+        <activity android:name=".graph.DjstaActivity"></activity>
+        <activity android:name=".java.ReferenceQueueActivity" />
+        <activity android:name=".java.JavaThreadPrincipleActivity" />
+        <activity android:name=".java.ArrayListActivity" />
+        <activity android:name=".interview.DesignV28Activity" />
+        <activity android:name=".other.GetMinActivity" />
+        <activity android:name=".java.LockTestActivity" />
     </application>
 
 </manifest>

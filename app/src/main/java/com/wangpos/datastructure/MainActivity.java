@@ -1,12 +1,8 @@
 package com.wangpos.datastructure;
 
-import android.content.ComponentName;
 import android.content.Intent;
-import android.os.AsyncTask;
-import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
@@ -46,20 +42,6 @@ import com.wangpos.datastructure.sort.SelectIndexDataActivity;
 import com.wangpos.datastructure.sort.ShellSortActivity;
 import com.wangpos.datastructure.sort.SpaceComplexityActivity;
 import com.wangpos.datastructure.sort.TimeComplexityActivity;
-
-import java.io.File;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Collections;
-import java.util.concurrent.TimeUnit;
-
-import okhttp3.Cache;
-import okhttp3.ConnectionPool;
-import okhttp3.Dispatcher;
-import okhttp3.Interceptor;
-import okhttp3.OkHttpClient;
-import okhttp3.Response;
 
 import static com.wangpos.datastructure.core.BaseActivity.setWindowStatusBarColor;
 
@@ -140,6 +122,8 @@ public class MainActivity extends AppCompatActivity {
     public static final int GetMin = 37;
 
     public static final int LOCKTEST = 38;
+
+    public static final int GREEDY_ALGORITHM = 39;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -296,6 +280,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case LOCKTEST:
                 startActivity(new Intent(this, LockTestActivity.class));
+                break;
             default:
                 break;
         }
@@ -341,6 +326,7 @@ public class MainActivity extends AppCompatActivity {
         list.add(new DataBean(DesignV28,"AndroidDesignV28新增内容"));
         list.add(new DataBean(GetMin,"通过栈实现获取最小值"));
         list.add(new DataBean(LOCKTEST,"LOCK使用"));
+        list.add(new DataBean(GREEDY_ALGORITHM,"贪婪算法"));
 
         //Debug
 

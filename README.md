@@ -8,7 +8,7 @@
 - [折半查找／二分查找算法](https://github.com/UCodeUStory/DataStructure/blob/master/app/src/main/java/com/wangpos/datastructure/sort/RecursionActivity.java)
 - [链表实现](https://github.com/UCodeUStory/DataStructure/blob/master/app/src/main/java/com/wangpos/datastructure/sort/EasyLinkListActivity.java)
 - [反转一个链表](https://github.com/UCodeUStory/DataStructure/blob/master/app/src/main/java/com/wangpos/datastructure/sort/EasyLinkListReverseActivity.java)
-- [直接插入排序](https://github.com/UCodeUStory/DataStructure/blob/master/app/src/main/java/com/wangpos/datastructure/sort/DirectInsertSortActivity.java)
+- [直接插入排序](https://github.com/UCodeUStory/DataStructure/blob/master/app/src/man/java/com/wangpos/datastructure/sort/DirectInsertSortActivity.java)
 - [快速排序](https://github.com/UCodeUStory/DataStructure/blob/master/app/src/main/java/com/wangpos/datastructure/sort/QuickSortActivity.java)
 - [选择排序](https://github.com/UCodeUStory/DataStructure/blob/master/app/src/main/java/com/wangpos/datastructure/sort/OptionSortActivity.java)
 - [冒泡排序](https://github.com/UCodeUStory/DataStructure/blob/master/app/src/main/java/com/wangpos/datastructure/sort/BubbleSortActivity.java)
@@ -40,6 +40,7 @@
 - [死锁](https://github.com/UCodeUStory/DataStructure/blob/master/app/src/main/java/com/wangpos/datastructure/java/DeadLockDemo.java)
 - [两个线程交替输出1010](https://github.com/UCodeUStory/DataStructure/blob/master/app/src/main/java/com/wangpos/datastructure/java/ThreadOneZero.java)
 - 两个排序数组的中值it 
+- [贪婪算法](https://github.com/UCodeUStory/DataStructure/blob/master/app/src/main/java/com.wangpos.datastructure.algorithm.Greedy.java)
 
 #### Java 
 - [Java 基础面试题](https://github.com/UCodeUStory/DataStructure/blob/master/sources/javabasic.md)

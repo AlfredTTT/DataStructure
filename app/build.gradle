@@ -20,23 +20,11 @@ android {
 //    }
 
 
-    signingConfigs {
-        releaseConfig {
-            keyAlias 'androiddebugkey'
-            keyPassword 'android'
-            storeFile file('/Users/qiyue/wangpos/code3/keystore/debug.keystore')
-            storePassword 'android'
-        }
-
-
-    }
-
     buildTypes {
         release {
             buildConfigField "boolean", "LOG_DEBUG", "false"
             buildConfigField "boolean", "DEBUG_MODEL", "false"
             minifyEnabled false
-            signingConfig signingConfigs.releaseConfig
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
 
@@ -44,7 +32,6 @@ android {
             buildConfigField "boolean", "LOG_DEBUG", "false"
             buildConfigField "boolean", "DEBUG_MODEL", "true"
             minifyEnabled false
-            signingConfig signingConfigs.releaseConfig
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
@@ -52,7 +39,7 @@ android {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
